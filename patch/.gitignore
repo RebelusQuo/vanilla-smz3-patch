@@ -1,0 +1,8 @@
+*.sfc
+*.smc
+*.srm
+*.ips
+
+*.sym
+
+build/asar*

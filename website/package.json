@@ -1,0 +1,35 @@
+{
+  "name": "vanilla-smz3-patch",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html"
+  },
+  "dependencies": {
+    "bootstrap": "^4.4.1",
+    "file-saver": "^2.0.2",
+    "localforage": "^1.7.3",
+    "lodash": "^4.17.15",
+    "pako": "^1.0.11",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "reactstrap": "^8.4.1",
+    "xxhashjs": "^0.2.2"
+  },
+  "devDependencies": {
+    "parcel-bundler": "^1.12.4"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
