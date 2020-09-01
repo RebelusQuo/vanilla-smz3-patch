@@ -9,7 +9,7 @@ python3 create_canvas.py 00.sfc ff.sfc
 python3 create_diff.py -f bin 00.sfc ff.sfc ../dist/vanilla-zsm.bin
 rm 00.sfc ff.sfc
 
-gzip ../dist/vanilla-zsm.bin
+gzip -f ../dist/vanilla-zsm.bin
 
 cd ..
 echo Done
